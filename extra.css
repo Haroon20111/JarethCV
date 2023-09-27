@@ -1,0 +1,24 @@
+
+.container-right .main-container{
+
+    border: 2px solid blue;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50% , -50%);
+    width: 250px;
+    height: auto;
+
+    
+}
+
+.container-right h3{
+    position: absolute;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #badc58;
+    font-weight: 300;
+    writing-mode: vertical-rl;
+    left: -50px;
+    transform: rotate(180deg);
+}
